@@ -1,0 +1,97 @@
+.road {
+  width: 1000px;
+  height: 1000px;
+}
+
+.car {
+  position: relative;
+  bottom: 160px;
+  left: 100px;
+}
+
+@keyframes car {
+  0% {
+    bottom: 160px;
+    left: 100px;
+  }
+
+  10% {
+    bottom: 160px;
+    left: 700px;
+    transform: rotate(0deg);
+  }
+
+  20% {
+    bottom: 250px;
+    left: 810px;
+    transform: rotate(-90deg);
+  }
+
+  25% {
+    bottom: 810px;
+    left: 800px;
+    transform: rotate(-90deg);
+  }
+
+  30% {
+    bottom: 850px;
+    left: 800px;
+    transform: rotate(-90deg);
+  }
+
+  40% {
+    bottom: 920px;
+    left: 680px;
+    transform: rotate(-180deg);
+  }
+
+  50% {
+    bottom: 920px;
+    left: 150px;
+    transform: rotate(-180deg);
+  }
+
+  55% {
+    bottom: 920px;
+    left: 120px;
+    transform: rotate(-180deg);
+  }
+
+  65% {
+    bottom: 800px;
+    left: 60px;
+    transform: rotate(-270deg);
+  }
+
+  75% {
+    bottom: 300px;
+    left: 50px;
+    transform: rotate(-270deg);
+  }
+
+  80% {
+    bottom: 200px;
+    left: 50px;
+    transform: rotate(-270deg);
+  }
+
+  90% {
+    bottom: 160px;
+    left: 100px;
+    transform: rotate(-360deg);
+  }
+
+  100% {
+    bottom: 160px;
+    left: 80px;
+    transform: rotate(-360deg);
+  }
+}
+.car {
+  animation-name: car;
+  animation-duration: 12s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
